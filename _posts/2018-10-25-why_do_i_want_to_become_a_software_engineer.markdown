@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "**Why Do I Want To Become A Software Engineer?**"
-date:       2018-10-26 02:50:00 +0000
+title:      "Why Do I Want To Become A Software Engineer?"
+date:       2018-10-25 22:50:01 -0400
 permalink:  why_do_i_want_to_become_a_software_engineer
 ---
 
