@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Ruby Class Methods"
-date:       2018-12-17 03:57:41 +0000
+date:       2018-12-16 22:57:42 -0500
 permalink:  ruby_class_methods
 ---
 
@@ -17,11 +17,11 @@ class Artist
 	  @name = name
 	end
 
-def self.create
-  artist_name = Artist.new(name)
-  artist_name.save
-  artist_name
-end
+  def self.create
+    artist_name = Artist.new(name)
+    artist_name.save
+    artist_name
+  end
 
 end
 ```
