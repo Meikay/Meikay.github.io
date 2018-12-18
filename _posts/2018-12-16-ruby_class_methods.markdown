@@ -15,7 +15,7 @@ class Artist
 	
 	def initialize(name)
 	  @name = name
-	end
+  end
 
   def self.create
     artist_name = Artist.new(name)
