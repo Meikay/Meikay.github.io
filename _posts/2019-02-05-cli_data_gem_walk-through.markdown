@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Data Gem Walk-Through"
-date:       2019-02-06 02:09:32 +0000
+date:       2019-02-05 21:09:33 -0500
 permalink:  cli_data_gem_walk-through
 ---
 
@@ -18,18 +18,18 @@ In your terminal type
 At this point I had to map out the models I will be using through out my program. I decided to name my folder within lib, remote_jobs and within that folder, I added 3 more files that contained my classes. 
 
 
-# Setup File Environment
+# Step 3 Setup File Environment
 Then , I required the files in remote_jobs.rb to set up my project’s environment. At this point, I had to figure out what objects to build and what their attributes were going to be.
 
 
-# Add Dependecies
+# Step 4 Add Dependecies
 In my remote_jobs.gemspec file, I added the necessary dependecies such as Nokogiri, colorize, and pry. I also added information about my gem such as its name, version, description, authors and homepage.
 
 
-# Suedo Code
+# Step 5 Suedo Code
 I imagined how my CLI would behave and wrote down some steps. Then, I thought about what methods I would use to make my CLI behave that way. I also needed to find out what data I need to scrape.
 
-# Scrape
+# Step 6 Scrape
 I looked for the the data's css selectors so that I am able to access them through their children. I decided to scrape the first 100 full stack jobs from remotok.io and iterated over each job object to grab the job name, company name, and url. On the second scrape, I scraped the description of each job. However, instead of scraping many times and potentially being locked out of the website, I only scraped if the job the user chose does not have a description. 
 
 
