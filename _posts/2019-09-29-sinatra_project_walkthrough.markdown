@@ -8,7 +8,7 @@ permalink:  sinatra_project_walkthrough
 
 How to build a CRUD app using Sinatra and MVC?
 
-My Homework Log app is made for users to be able to log in/signup/logout of a homework assignment. They will be able to edit and delete their homework assignments.
+My Homework Log app is made for users to be able to log in/signup/logout of a homework assignment as well as be able to edit and delete their homework assignments.
 
 # MVC Structure
 Before diving into the project, I thought about what my MVC would look like. What type of data do I need in my models? How do I set up my routes and connect everything in my controllers? And what would all this look like in my views? Instead of building out the MVC structure from scratch, I used a gem named [Corneal](http://github.com/thebrianemory/corneal) created by Brian Emory which scafolds the MVC structure for you. It's simple installation makes set up a breeze! 
